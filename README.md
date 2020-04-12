@@ -18,7 +18,7 @@
     2. React함수 컴포넌트 내에서만 hook을 호출해야 한다. 
        ( 아니면, 바로 직접 작성한 custom Hook 내에서도 가능)
        
-* * *
+
   ##### useEffect
   useEffect(() => {
     componentDidMount, componentDidUpdate, componentWillUnmount가 합쳐진 것으로 생각해도 좋다
@@ -29,7 +29,6 @@
     useState와 마찬가지로 컴포넌트내에서 여러개의 effect를 사용할 수 있다. 
 
 
-* * *
+
 ###### Error : git push Permission denied (publickey).
-해결 : 
-    $ git push https://<username>:<password>@github.com/<username>/<repositoryName>.git
+###### 해결 :  $ git push https://<username>:<password>@github.com<username><repositoryName>.git

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Counter = () => {
   const [value, setValue] = useState(0);
   return (
-    <div style={{ border:'solid 1px darkblue', padding:'20px'}}>
+    <div style={{ border:'solid 1px darkblue', padding:'20px', margin:'10px'}}>
       <h2>[ useState ]</h2>
       <p>
         현재 카운터 값 :  <b>{value}</b> 
