@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Counter from './component/Counter';
-import Info from './component/Info';
+import Counter from './component/Counter';    // useState
+import Info from './component/Info';          // useEffect
+import Context from './component/Context';    // useContext
 
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
         <main> 
           <Counter/>
           <Info/>
+          <Context/>
         </main>
       </div>
     );
