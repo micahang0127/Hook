@@ -3,6 +3,7 @@ import Counter from './component/Counter';    // useState
 import Info from './component/Info';          // useEffect
 import Context from './component/Context';    // useContext
 import Reducer from './component/Reducer';    // useContext
+import Info_useReducer from './component/Info_useReducer';    // useContext
 
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
           <Info/>
           <Context/>
           <Reducer/>
+          <Info_useReducer/>
         </main>
       </div>
     );
